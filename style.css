@@ -1,0 +1,63 @@
+body{
+    background-color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+nav{
+    background-color: yellowgreen;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+nav a:hover{
+    color: red;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+div{
+    flex: 1;
+}
