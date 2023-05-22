@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(211, 214, 201);
     margin-top: 3rem;
     margin-bottom: 3rem;
     font-family: sans-serif;
@@ -23,6 +23,8 @@ header > img{
 }
 nav{
     background-color: yellowgreen;
+    height: 40px;
+    border-radius: 5px;
 }
 nav ul{
     list-style: none;
@@ -51,7 +53,26 @@ section{
 article{
     flex: 1;
 }
-
+.cover_container{
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.cover{
+    filter: brightness(50%);
+    border-radius: 10px;
+}
+.cover_text{
+ position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+.post{
+    align-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
 footer{
     display: flex;
     background-color: black;
